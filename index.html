@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4393d2007.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <img  class="logo-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrOF-hku1iuQdqAQWUE2KDo11iLm0-xuF1bw&usqp=CAU" alt="logo">
+        </div>
+        <div class="nav-right">
+            <a  class="a-tag"  href="#">Home</a>
+            <a class="a-tag" href="#about">About</a>
+            <a class="a-tag" href="#services">Services</a>
+            <a class="a-tag" href="#portifolio">Projects</a>
+            <a class="a-tag" href="#contact">Contact</a>
+            
+        </div>
+    </div>
+    <div class="home">
+        <div class="home-left">
+            <h1>Chaitanya Kola</h1>
+            <p>I am a passionate and dedicated B.Tech student majoring in Computer Science and Engineering.
+                My academic journey has equipped me with a solid foundation in programming, algorithms, and data structures.
+                I am always eager to learn and explore new technologies in the ever-evolving field of computer science.</p>
+        </div>
+        <div class="home-right">
+            <img class="hyd"  src="https://res.cloudinary.com/doemduwrp/image/upload/v1705850531/chaitu_hyd_3_cy0avh.jpg" alt="my-logo">
+            
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3_FU2nrLXQDg2lRiOOMVGhlwrRkKOrDcw_Q&usqp=CAU" height="400" alt="dev-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming</span><br>c, python, java</li>
+                            <li><span>Web development</span><br>HTML, CSS, Javascript</li>
+                            <li><span>Other</span><br>Communication,problem solving</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Codegnan on MERN stack</li>
+                            <li><span>Internshala</span><br>web development</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>DIET-Dhanekula Institute of Engineering and Technology with 8.0 CGPA</li>
+                            <li><span>2018-2020</span><br>BIEAP with 9.8 CGPA</li>
+                            <li><span>2018</span><br>10 th with 9.8 CGPA</li>
+                        </ul>
+                    </div>
+                       
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web development</h2>
+                    <p>can build the frontend part with all HTML, CSS nad javascript to vreate an interactive dynamic responsive website</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programming</h2>
+                    <p>we can solve the business issues by using programming through the c, c++ and python with less lines of code which can be implemenyed efficiently</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Project Design</h2>
+                    <p>We can Implement the project step by step manner by following all the rules through designing</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------projects----------------->
+    <div id="portifolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://c8.alamy.com/comp/2G10PPW/poznan-pol-may-1-2021-laptop-computer-displaying-logo-of-stack-overflow-a-question-and-answer-site-for-professional-and-enthusiast-programmers-2G10PPW.jpg"width="400px" height="400px" alt="q&a">
+                    <div class="layer">
+                        <h3>Question & answers Stack Overflow</h3>
+                        <p>Created an interactive and real-time Q&A platform using
+                            Express.js, React, and Node.js. Users can ask questions, post
+                            answers, and engage in discussions while enjoying features like
+                            user profiles, upvoting, and efficient search.
+                        </p>
+                        <a href="https://github.com/Chaitanyakola24/stackoverflow-Mern"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://imgk.timesnownews.com/story/admission_27.jpg?tr=w-600,h-450,fo-auto"width="400px" height="400px" alt="pre-primary">
+                    <div class="layer">
+                        <h3>Pre-Primary School registration form</h3>
+                        <p>The Pre-Primary School Student Registration System is a robust and
+                            modern web application developed using Angular for the frontend, Eclipse
+                            IDE with Java for backend development, and Spring Boot to facilitate
+                            seamless communication between the two layers.
+                        </p>
+                        <a href="https://github.com/Chaitanyakola24/kid-frontend"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://qph.cf2.quoracdn.net/main-qimg-fea4a84c9413514132fe053769bce875"width="400px" height="400px" alt="port">
+                    <div class="layer">
+                        <h3>Portifolio</h3>
+                        <p>A personal portfolio is a collection of work, projects, skills, and experiences that individuals create to showcase their professional abilities, achievements, and personality</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-----------------contact----------------------------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> Contact@example.com</p>
+                    <p><i class="fa-regular fa-phone-volume"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Chaitanyakola24"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/chaitanya-kola-845a14220/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Chaitanya.pdf"  download  class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ 2024</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyYLbwVWglwdCPuWVzmFh8TvoNyfHRGk9HtZzkUsCuiU87v39RDEuF8ugcmwH1oLhcfYw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    
+</body>
+</html>
